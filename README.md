@@ -1,4 +1,4 @@
-![image alt]() | ![image alt](https://github.com/0mollo/AGS10-Piggyback-Adapter/blob/main/AGS10%20Sensor%20piggyback%20bottom%20view.png) |
+![image alt](https://github.com/0mollo/AGS10-Piggyback-Adapter/blob/main/AGS10%20Sensor%20piggyback%20top%20view.png?raw=true) | ![image alt](https://github.com/0mollo/AGS10-Piggyback-Adapter/blob/main/AGS10%20Sensor%20piggyback%20bottom%20view.png) |
 # AGS10-Piggyback-Adapter
 This repository contains the design files, example code, and documentation for a piggyback adapter board that enables using the ASAIR AGS10 TVOC gas sensor directly with boards such as C3-mini or D1 mini. 
 
