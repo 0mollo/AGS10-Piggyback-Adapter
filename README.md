@@ -25,7 +25,10 @@ This repository contains the design files, example code, and documentation for a
 | GND        | GND      | Ground |
 | 3V3       | 3.3V    | Power |  
 
-    
+
+## Documentation
+
+[Datasheet](https://www.aosong.com/userfiles/files/Datasheet%20AGS10.pdf)
 
 ## Usage
 
