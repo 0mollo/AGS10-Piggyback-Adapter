@@ -28,8 +28,8 @@ This repository contains the design files, example code, and documentation for a
 
 ## Documentation
 
-[Datasheet](https://www.aosong.com/userfiles/files/Datasheet%20AGS10.pdf)
-[Schematic](https://github.com/0mollo/AGS10-Piggyback-Adapter/blob/main/AGS10%20Sensor%20piggy%20back.pdf)
+-[Datasheet](https://www.aosong.com/userfiles/files/Datasheet%20AGS10.pdf)
+-[Schematic](https://github.com/0mollo/AGS10-Piggyback-Adapter/blob/main/AGS10%20Sensor%20piggy%20back.pdf)
 
 ## Usage
 
