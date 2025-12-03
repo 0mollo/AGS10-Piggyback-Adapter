@@ -17,12 +17,12 @@ This repository contains the design files, example code, and documentation for a
 - Ready-to-use Gerber and fabrication files.
 
 - ## Pin Mapping
-- | Shield Pin | MCU Pin | Function        |
+| Shield Pin | MCU Pin | Function     |
 |-----------|---------|-----------------|
 | D1        | GPIO5   | SCL             |
 | D2        | GPIO2   | SDA             |
 | GND       | GND     | Ground          |
-| 3V3       | 3.3V    | VCC | 
+| 3V3       | 3.3V    | VCC             | 
     
 
 ## Usage
