@@ -1,0 +1,26 @@
+```cpp
+#include <Wire.h>
+
+#define AGS10_ADDR 0x1A
+
+void setup() {
+  Serial.begin(115200);
+  Wire.begin();  // default SDA,SCL pins
+  delay(2000);   // wait for sensor warm-up
+}
+
+void loop() {
+  Wire.beginTransmission(AGS10_ADDR);
+  Wire.write(0x00);  // read command
+  Wire.endTransmission(false);
+  Wire.requestFrom(AGS10_ADDR, 5);  // expect 5 bytes (including CRC)
+  if (Wire.available() == 5) {
+    // parse data per datasheet: status + 4 data bytes + CRC
+    // ... (implementation omitted for brevity) ...
+    uint32_t tvoc_ppb = ...;
+    Serial.print("TVOC: ");
+    Serial.print(tvoc_ppb);
+    Serial.println(" ppb");
+  }
+  delay(2000);
+}
