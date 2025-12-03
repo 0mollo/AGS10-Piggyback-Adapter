@@ -14,7 +14,15 @@ This repository contains the design files, example code, and documentation for a
 - Compact form factor piggyback-style adapter — no external wiring required (just plug onto host board).  
 - I²C interface with SDA, SCL, GND, VCC (3.3 V recommended).  
 - Example code provided for both C3-mini and D1 mini (ESP8266 / ESP-C3) to read TVOC values.  
-- Ready-to-use Gerber and fabrication files.  
+- Ready-to-use Gerber and fabrication files.
+
+- ## Pin Mapping
+- | Shield Pin | MCU Pin | Function        |
+|-----------|---------|-----------------|
+| D1        | GPIO5   | SCL             |
+| D2        | GPIO2   | SDA             |
+| GND       | GND     | Ground          |
+| 3V3       | 3.3V    | VCC | 
     
 
 ## Usage
