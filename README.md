@@ -16,13 +16,15 @@ This repository contains the design files, example code, and documentation for a
 - Example code provided for both C3-mini and D1 mini (ESP8266 / ESP-C3) to read TVOC values.  
 - Ready-to-use Gerber and fabrication files.
 
-- ## Pin Mapping
-| Shield Pin | MCU Pin | Function     |
+  ## Pin Mapping
+  
+| Shield Pin | MCU Pin | Function        |
 |-----------|---------|-----------------|
-| D1        | GPIO5   | SCL             |
-| D2        | GPIO2   | SDA             |
+| D3        | GPIO4   | Button Input    |
 | GND       | GND     | Ground          |
-| 3V3       | 3.3V    | VCC             | 
+| 5V        | 5V      | Power Pass-through |
+| 3V3       | 3.3V    | Logic / Modules |  
+
     
 
 ## Usage
