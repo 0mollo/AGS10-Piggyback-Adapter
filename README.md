@@ -20,10 +20,10 @@ This repository contains the design files, example code, and documentation for a
   
 | Shield Pin | MCU Pin | Function        |
 |-----------|---------|-----------------|
-| D3        | GPIO4   | Button Input    |
-| GND       | GND     | Ground          |
-| 5V        | 5V      | Power Pass-through |
-| 3V3       | 3.3V    | Logic / Modules |  
+| D1        | GPIO5   | SCL   |
+| D2       | GPIO2     | SDA          |
+| GND        | GND      | Ground |
+| 3V3       | 3.3V    | Power |  
 
     
 
